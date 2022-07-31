@@ -3,8 +3,6 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 html{
@@ -17,12 +15,13 @@ h2 {
 }
 
 .h2 {
-    background-color: #F3976C;
+    background-color: #F26B2C;
     color: white;
     padding: 20px;
     border-radius: 40px;
     margin-bottom: 30px!important;
 }
+
 .col-sm-12 p {
     color:rgba(255, 255, 255, 0.75);
     font-size: large;
@@ -54,7 +53,7 @@ blockquote p {
 
 .orange-bg {
     padding: 20px 50px !important;
-    background-color: #F3976C!important;
+    background-color: #F26B2C!important;
 }
 
 .text-center {
@@ -91,8 +90,13 @@ textarea {
     min-width: 80%;
 }
 
+.bloc-lg {
+    margin-top: 30px!important;
+}
 
-
+.mg-lg {
+    color: black!important;
+}
 
 a,
 button {
@@ -447,6 +451,7 @@ a:hover {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -733,10 +738,6 @@ a {
 
 
 
-.container {
-    max-width: 1000px;
-}
-
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -850,7 +851,12 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F26B2C;
+}
+
+.color {
+    background: #f486539d;
+    color: #383838;
 }
 
 .tc-white {
@@ -858,11 +864,11 @@ h4 {
 }
 
 .tc-orange {
-    color: #F3976C!important;
+    color: #F26B2C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #F26B2C;
     color: #FFFFFF!important;
 }
 
@@ -880,7 +886,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F26B2C!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -955,10 +961,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+  
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -967,8 +970,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
