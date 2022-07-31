@@ -15,7 +15,7 @@ h2 {
 }
 
 .h2 {
-    background-color: #F26B2C;
+    background-color: #CE4A0D;
     color: white;
     padding: 20px;
     border-radius: 40px;
@@ -53,7 +53,7 @@ blockquote p {
 
 .orange-bg {
     padding: 20px 50px !important;
-    background-color: #F26B2C!important;
+    background-color: #CE4A0D!important;
 }
 
 .text-center {
@@ -842,7 +842,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F26B2C;
+    background-color: #CE4A0D;
 }
 
 .color {
@@ -855,11 +855,11 @@ h4 {
 }
 
 .tc-orange {
-    color: #F26B2C!important;
+    color: #CE4A0D!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F26B2C;
+    background: #CE4A0D;
     color: #FFFFFF!important;
 }
 
@@ -877,7 +877,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F26B2C!important;
+    color: #CE4A0D!important;
 }
 
 .ltc-atomic-tangerine:hover {
